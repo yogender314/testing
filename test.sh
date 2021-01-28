@@ -1,6 +1,6 @@
+#!/bin/bash
 
-sudo apt update -y
+echo 'echo "hello"'> testingArtifacts.sh
 
-echo "hello testing over."
-
-echo "hello2"
+tar -zcvf testingArtifact.tar.gz testingArtifacts.sh
+ 
