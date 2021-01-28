@@ -2,5 +2,5 @@
 
 echo 'echo "hello"'> testingArtifacts.sh
 
-tar -zcvf testingArtifact.tar.gz testingArtifacts.sh
+tar -zcvf testingArtifact testingArtifacts.sh
  
